@@ -1,6 +1,7 @@
 import { IncomingMessage, ServerResponse } from "http";
 import AxonResponse from "../core/response/AxonResponse";
 import { AxonRouteHandler } from "../Router/AxonRouter";
+import { BaseController } from "../core/services/controllerService";
 
 export interface Request<P> extends IncomingMessage {
     method: string;
@@ -30,6 +31,8 @@ export type FuncController<P = {}> = (
     request: Request<P>,
     response: Response
 ) => Promise<void> | void;
+
+export type ClassController<C extends BaseController, M extends keyof C> = [new () => C, M];
 
 // Controller will be type of class base controllers.
 

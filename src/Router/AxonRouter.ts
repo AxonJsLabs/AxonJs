@@ -1,8 +1,9 @@
 import RouterException from "./exceptions/RouterException";
 import addRoutePrefix from "../core/utils/routePrefixHandler";
-import { FuncController, Middleware, RouteParams, HttpMethods, MiddlewareStorage } from "../types/RouterTypes";
+import { FuncController, Middleware, RouteParams, HttpMethods, MiddlewareStorage, ClassController    } from "../types/RouterTypes";
 import { logger } from "../core/utils/coreLogger";
 import { resolveConfig } from "../core/config/AxonConfig";
+import { BaseController } from "../core/services/controllerService";
 
 const duplicateError = (path: string, method: keyof HttpMethods) => {
     throw new RouterException({
@@ -20,10 +21,10 @@ let MIDDLEWARE_TIMEOUT: number;
 resolveConfig(false).then(config => MIDDLEWARE_TIMEOUT = config.MIDDLEWARE_TIMEOUT || 10000);
 
 export class AxonRouteHandler<P = {}> {
-    public _controller: FuncController<P>;
+    public _controller: FuncController<P> | ClassController<any, any>;
     public _middlewares: MiddlewareStorage[];
 
-    constructor(controller: FuncController<P>) {
+    constructor(controller: FuncController<P> | ClassController<any, any>) {
         this._controller = controller;
         this._middlewares = [];
     }
@@ -74,7 +75,13 @@ class AxonRouter {
      *  res.send("Hello World");
      * });
      */
-    public get<Path extends string>(path: Path, controller: FuncController<RouteParams<Path>>) {
+    public get<Path extends string, C extends BaseController, M extends keyof C>(
+        path: Path, 
+        controller: (
+            FuncController<RouteParams<Path>>
+            | ClassController<C, M>
+        )
+    ) {
         if (this.routes.GET[path]) {
             duplicateError(path, "GET")
         }

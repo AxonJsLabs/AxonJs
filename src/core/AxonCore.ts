@@ -27,6 +27,7 @@ import { PluginLoader } from "./plugin/PluginLoader";
 import { resolveConfig } from "./config/AxonConfig";
 import { unloadRouteService, unloadRoutesService } from "./services/unloadRoutesService";
 import { MiddlewareStorage } from "../types/RouterTypes";
+import { isAsync } from "./utils/helpers";
 
 // Default values
 const defaultResponses = {
@@ -374,7 +375,11 @@ export default class AxonCore {
                         await this.handleMiddleware(req, res, async () => {
                             await this.handleMiddleware(req, res, async () => {
                                 await this.handleMiddleware(req, res, async () => {
-                                    await controller(req, res);
+                                    if (isAsync(controller)) {
+                                        await controller(req, res);
+                                    } else {
+                                        controller(req, res);
+                                    }
 
                                     // log incoming requests
                                     if (this.config.LOGGER_VERBOSE) {

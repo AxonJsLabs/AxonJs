@@ -1,4 +1,5 @@
-import { Router } from "../../src";
+import { Router, Response, Request } from "../../src";
+import { BaseController } from "../../src/core/services/controllerService";
 
 // you can set route prefix in Router
 const router = Router("/api/v1")
@@ -10,5 +11,30 @@ router.get('/{name}([a-z]+)/{id}(\\d+)', async (req, res) => {
         query: req.query
     })
 })
+
+class AuthController extends BaseController {
+    /**
+     * Login user
+     */
+    login() {
+
+    }
+
+    /**
+     * Logout user
+     */
+    logout() {
+
+    }
+
+    /**
+     * Get user
+     */
+    getUser() {
+
+    }
+}
+
+router.get('/login', [AuthController, "login"]);
 
 export { router as v2Routes }
