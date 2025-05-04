@@ -25,7 +25,7 @@ import AxonResponse from "./response/AxonResponse";
 import AxonCors from "./cors/AxonCors";
 import { PluginLoader } from "./plugin/PluginLoader";
 import { resolveConfig } from "./config/AxonConfig";
-import { unloadRouteService, unloadRoutesService } from "./services/unloadRoutesService";
+import { unloadRouteService, unloadRoutesService } from "./services/unloadRoutes.service";
 import { MiddlewareStorage } from "../types/RouterTypes";
 import { isAsync } from "./utils/helpers";
 

@@ -3,7 +3,7 @@ import addRoutePrefix from "../core/utils/routePrefixHandler";
 import { FuncController, Middleware, RouteParams, HttpMethods, MiddlewareStorage, ClassController    } from "../types/RouterTypes";
 import { logger } from "../core/utils/coreLogger";
 import { resolveConfig } from "../core/config/AxonConfig";
-import { BaseController } from "../core/services/controllerService";
+import { BaseController } from "../core/services/controller.service";
 
 const duplicateError = (path: string, method: keyof HttpMethods) => {
     throw new RouterException({

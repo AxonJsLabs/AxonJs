@@ -1,5 +1,5 @@
 import { Router, Response, Request } from "../../src";
-import { BaseController } from "../../src/core/services/controllerService";
+import { BaseController } from "../../src/core/services/controller.service";
 
 // you can set route prefix in Router
 const router = Router("/api/v1")
