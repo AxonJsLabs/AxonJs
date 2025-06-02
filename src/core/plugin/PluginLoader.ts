@@ -14,6 +14,7 @@ export class PluginLoader {
     }
 
     async initializePlugins(core: AxonCore) {
+        // TODO: Test of this part needs to have a config change method in core for hot-change configs
         const currentMode = core.getConfig().PROJECT_ENV || "development";
 
         this.plugins.forEach(async (plugin) => {

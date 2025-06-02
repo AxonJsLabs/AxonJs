@@ -1,7 +1,7 @@
 import { Axon, Router } from '../../src';
 import * as http from 'http';
 
-describe('AxonCore Integration Tests (v0.0.1)', () => {
+describe('AxonCore Integration Tests', () => {
     const core = Axon();
     const router = Router();
     const TEST_PORT = 19876; // Use a high port number to avoid conflicts  

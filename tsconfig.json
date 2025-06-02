@@ -21,6 +21,7 @@
     },
     "include": [
         "src/**/*.ts",
-        "tests/**/*.ts"
+        "tests/**/*.ts",
+        "axon.config.ts"
     ]
 }
