@@ -5,7 +5,7 @@ import { ProductionPlugin } from "./plugin/ProductionPlugin";
 import { GlobalPlugin } from "./plugin/GlobalPlugin";
 import { NoModePlugin } from "./plugin/NoModePlugin";
 
-describe('Axon plugin system tests', async () => {
+describe('Axon plugin system tests', () => {
     const globalPlugin = new GlobalPlugin();
     const productionPlugin = new ProductionPlugin();
     const developmentPlugin = new DevelopmentPlugin();
@@ -13,10 +13,10 @@ describe('Axon plugin system tests', async () => {
 
     const pluginLoader = new PluginLoader();
 
-    await pluginLoader.loadPlugin(globalPlugin);
-    await pluginLoader.loadPlugin(productionPlugin);
-    await pluginLoader.loadPlugin(developmentPlugin);
-    await pluginLoader.loadPlugin(nomodePlugin);
+    Promise.all([
+        pluginLoader.loadPlugin(globalPlugin),
+        pluginLoader.loadPlugin(productionPlugin)
+    ])
 
     const core = Axon();
     const TEST_PORT = 19877; // Use a high port number to avoid conflicts  
@@ -46,7 +46,7 @@ describe('Axon plugin system tests', async () => {
     test('Should ProductionPlugin mode to be production', () => {
         expect(productionPlugin.mode).toBe("production");
     });
-    
+
     test('Should DevelopmentPlugin mode to be development', () => {
         expect(developmentPlugin.mode).toBe("development");
     });
@@ -55,7 +55,15 @@ describe('Axon plugin system tests', async () => {
         expect(nomodePlugin.mode).toBe("both");
     });
 
-    // test('Should PluginLoader return all plugins', () => {
-    //     expect(pluginLoader.getPlugins()).toBe("both");
-    // });
+    test('Should return all loaded plugins', async () => {
+        const plugins = await pluginLoader.getPlugins();
+
+        expect(plugins).toEqual(expect.arrayContaining([globalPlugin, productionPlugin]));
+    });
+
+    test('Should return loaded production plugins', async () => {
+        const plugins = await pluginLoader.getPlugins("production");
+
+        expect(plugins).toEqual(expect.arrayContaining([productionPlugin]));
+    });
 });
