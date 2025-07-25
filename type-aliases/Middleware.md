@@ -8,7 +8,7 @@
 
 > **Middleware**\<`P`\> = (`request`, `response`, `next`) => `Promise`\<`void`\> \| `void`
 
-Defined in: [types/RouterTypes.ts:78](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/types/RouterTypes.ts#L78)
+Defined in: [types/RouterTypes.ts:78](https://github.com/AxonJsLabs/AxonJs/blob/407e35cea641a89da71a37171ebae2edf17c9012/src/types/RouterTypes.ts#L78)
 
 The `Middleware` type represents a function that acts as middleware in a
 web application. Middleware functions have access to the `Request` object, the

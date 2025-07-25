@@ -6,7 +6,7 @@
 
 # Interface: UnloadRouteParams
 
-Defined in: [types/CoreTypes.ts:113](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/types/CoreTypes.ts#L113)
+Defined in: [types/CoreTypes.ts:113](https://github.com/AxonJsLabs/AxonJs/blob/407e35cea641a89da71a37171ebae2edf17c9012/src/types/CoreTypes.ts#L113)
 
 Type of input object of unloadRoute method.
 
@@ -16,7 +16,7 @@ Type of input object of unloadRoute method.
 
 > `optional` **method**: keyof HttpMethods
 
-Defined in: [types/CoreTypes.ts:133](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/types/CoreTypes.ts#L133)
+Defined in: [types/CoreTypes.ts:133](https://github.com/AxonJsLabs/AxonJs/blob/407e35cea641a89da71a37171ebae2edf17c9012/src/types/CoreTypes.ts#L133)
 
 [Optional]
 
@@ -35,7 +35,7 @@ Name of http method which you want to remove it's children routes from backend c
 
 > `optional` **route**: `string`
 
-Defined in: [types/CoreTypes.ts:138](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/types/CoreTypes.ts#L138)
+Defined in: [types/CoreTypes.ts:138](https://github.com/AxonJsLabs/AxonJs/blob/407e35cea641a89da71a37171ebae2edf17c9012/src/types/CoreTypes.ts#L138)
 
 A specific route which you want to remove it from backend core.
 
@@ -45,7 +45,7 @@ A specific route which you want to remove it from backend core.
 
 > `optional` **router**: [`AxonRouter`](../classes/AxonRouter.md)
 
-Defined in: [types/CoreTypes.ts:119](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/types/CoreTypes.ts#L119)
+Defined in: [types/CoreTypes.ts:119](https://github.com/AxonJsLabs/AxonJs/blob/407e35cea641a89da71a37171ebae2edf17c9012/src/types/CoreTypes.ts#L119)
 
 [Optional]
 

@@ -6,7 +6,7 @@
 
 # Interface: ValidationObj
 
-Defined in: [types/RouterTypes.ts:114](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/types/RouterTypes.ts#L114)
+Defined in: [types/RouterTypes.ts:114](https://github.com/AxonJsLabs/AxonJs/blob/407e35cea641a89da71a37171ebae2edf17c9012/src/types/RouterTypes.ts#L114)
 
 Required object for auto validation process.
 
@@ -16,7 +16,7 @@ Required object for auto validation process.
 
 > `optional` **options**: [`ValidationConfig`](../type-aliases/ValidationConfig.md)
 
-Defined in: [types/RouterTypes.ts:133](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/types/RouterTypes.ts#L133)
+Defined in: [types/RouterTypes.ts:133](https://github.com/AxonJsLabs/AxonJs/blob/407e35cea641a89da71a37171ebae2edf17c9012/src/types/RouterTypes.ts#L133)
 
 Options of your validation part for this schema.
 
@@ -36,7 +36,7 @@ options: {} as z.ParseParams
 
 > **schema**: [`ValidationSchema`](../type-aliases/ValidationSchema.md)
 
-Defined in: [types/RouterTypes.ts:120](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/types/RouterTypes.ts#L120)
+Defined in: [types/RouterTypes.ts:120](https://github.com/AxonJsLabs/AxonJs/blob/407e35cea641a89da71a37171ebae2edf17c9012/src/types/RouterTypes.ts#L120)
 
 Validation schema created with Joi, Zod or Yup.
 
@@ -48,7 +48,7 @@ NOTE: Be carefull, query, params and body for validation is always type of objec
 
 > `optional` **target**: [`ValidationTargets`](../type-aliases/ValidationTargets.md)
 
-Defined in: [types/RouterTypes.ts:142](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/types/RouterTypes.ts#L142)
+Defined in: [types/RouterTypes.ts:142](https://github.com/AxonJsLabs/AxonJs/blob/407e35cea641a89da71a37171ebae2edf17c9012/src/types/RouterTypes.ts#L142)
 
 Target of your validator middleware.
 

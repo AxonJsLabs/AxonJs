@@ -6,7 +6,7 @@
 
 # Interface: AxonConfig
 
-Defined in: [types/ConfigTypes.ts:3](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/types/ConfigTypes.ts#L3)
+Defined in: [types/ConfigTypes.ts:3](https://github.com/AxonJsLabs/AxonJs/blob/407e35cea641a89da71a37171ebae2edf17c9012/src/types/ConfigTypes.ts#L3)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [types/ConfigTypes.ts:3](https://github.com/AxonJsLabs/AxonJs/blob/3
 
 > `optional` **CORS**: [`AxonCorsConfig`](AxonCorsConfig.md)
 
-Defined in: [types/ConfigTypes.ts:23](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/types/ConfigTypes.ts#L23)
+Defined in: [types/ConfigTypes.ts:23](https://github.com/AxonJsLabs/AxonJs/blob/407e35cea641a89da71a37171ebae2edf17c9012/src/types/ConfigTypes.ts#L23)
 
 Cors configuration for AxonCore.
 
@@ -24,7 +24,7 @@ Cors configuration for AxonCore.
 
 > `optional` **DEBUG**: `boolean`
 
-Defined in: [types/ConfigTypes.ts:7](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/types/ConfigTypes.ts#L7)
+Defined in: [types/ConfigTypes.ts:7](https://github.com/AxonJsLabs/AxonJs/blob/407e35cea641a89da71a37171ebae2edf17c9012/src/types/ConfigTypes.ts#L7)
 
 AxonCore debug mode.
 
@@ -34,7 +34,7 @@ AxonCore debug mode.
 
 > `optional` **DEPENDENCY\_CACHE**: `boolean`
 
-Defined in: [types/ConfigTypes.ts:52](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/types/ConfigTypes.ts#L52)
+Defined in: [types/ConfigTypes.ts:52](https://github.com/AxonJsLabs/AxonJs/blob/407e35cea641a89da71a37171ebae2edf17c9012/src/types/ConfigTypes.ts#L52)
 
 Cache dependencies of controller, middleware handlers.
 
@@ -53,7 +53,7 @@ false
 
 > `optional` **HTTPS**: [`AxonHttpsConfig`](../type-aliases/AxonHttpsConfig.md)
 
-Defined in: [types/ConfigTypes.ts:28](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/types/ConfigTypes.ts#L28)
+Defined in: [types/ConfigTypes.ts:28](https://github.com/AxonJsLabs/AxonJs/blob/407e35cea641a89da71a37171ebae2edf17c9012/src/types/ConfigTypes.ts#L28)
 
 Https configuration for AxonCore.
 
@@ -63,7 +63,7 @@ Https configuration for AxonCore.
 
 > `optional` **LOGGER**: `boolean`
 
-Defined in: [types/ConfigTypes.ts:11](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/types/ConfigTypes.ts#L11)
+Defined in: [types/ConfigTypes.ts:11](https://github.com/AxonJsLabs/AxonJs/blob/407e35cea641a89da71a37171ebae2edf17c9012/src/types/ConfigTypes.ts#L11)
 
 AxonCore logger.
 
@@ -73,7 +73,7 @@ AxonCore logger.
 
 > `optional` **LOGGER\_VERBOSE**: `boolean`
 
-Defined in: [types/ConfigTypes.ts:15](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/types/ConfigTypes.ts#L15)
+Defined in: [types/ConfigTypes.ts:15](https://github.com/AxonJsLabs/AxonJs/blob/407e35cea641a89da71a37171ebae2edf17c9012/src/types/ConfigTypes.ts#L15)
 
 Verboose mode of logger.
 
@@ -83,7 +83,7 @@ Verboose mode of logger.
 
 > `optional` **MIDDLEWARE\_TIMEOUT**: `number`
 
-Defined in: [types/ConfigTypes.ts:35](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/types/ConfigTypes.ts#L35)
+Defined in: [types/ConfigTypes.ts:35](https://github.com/AxonJsLabs/AxonJs/blob/407e35cea641a89da71a37171ebae2edf17c9012/src/types/ConfigTypes.ts#L35)
 
 A global variable to set default middleware timeout for all routes before breaking the middleware chain.
 
@@ -99,7 +99,7 @@ A global variable to set default middleware timeout for all routes before breaki
 
 > `optional` **PROJECT\_ENV**: `"development"` \| `"production"`
 
-Defined in: [types/ConfigTypes.ts:42](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/types/ConfigTypes.ts#L42)
+Defined in: [types/ConfigTypes.ts:42](https://github.com/AxonJsLabs/AxonJs/blob/407e35cea641a89da71a37171ebae2edf17c9012/src/types/ConfigTypes.ts#L42)
 
 Project environment type to manage features more secure and automatically in AxonCore.
 
@@ -115,6 +115,6 @@ development
 
 > `optional` **RESPONSE\_MESSAGES**: [`AxonResponseMessage`](AxonResponseMessage.md)
 
-Defined in: [types/ConfigTypes.ts:19](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/types/ConfigTypes.ts#L19)
+Defined in: [types/ConfigTypes.ts:19](https://github.com/AxonJsLabs/AxonJs/blob/407e35cea641a89da71a37171ebae2edf17c9012/src/types/ConfigTypes.ts#L19)
 
 Configuration for AxonCore custom response messages.

@@ -6,7 +6,7 @@
 
 # Interface: AxonCorsConfig
 
-Defined in: [types/CoreTypes.ts:10](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/types/CoreTypes.ts#L10)
+Defined in: [types/CoreTypes.ts:10](https://github.com/AxonJsLabs/AxonJs/blob/407e35cea641a89da71a37171ebae2edf17c9012/src/types/CoreTypes.ts#L10)
 
 Cors configuration for AxonCore.
 
@@ -16,7 +16,7 @@ Cors configuration for AxonCore.
 
 > `optional` **allowedHeaders**: `string` \| `string`[]
 
-Defined in: [types/CoreTypes.ts:48](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/types/CoreTypes.ts#L48)
+Defined in: [types/CoreTypes.ts:48](https://github.com/AxonJsLabs/AxonJs/blob/407e35cea641a89da71a37171ebae2edf17c9012/src/types/CoreTypes.ts#L48)
 
 Configures the Access-Control-Allow-Headers CORS header.
 
@@ -34,7 +34,7 @@ If not specified, defaults to reflecting the headers specified in the request's 
 
 > `optional` **credentials**: `boolean`
 
-Defined in: [types/CoreTypes.ts:66](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/types/CoreTypes.ts#L66)
+Defined in: [types/CoreTypes.ts:66](https://github.com/AxonJsLabs/AxonJs/blob/407e35cea641a89da71a37171ebae2edf17c9012/src/types/CoreTypes.ts#L66)
 
 Configures the Access-Control-Allow-Credentials CORS header.
 
@@ -46,7 +46,7 @@ Set to `true` to pass the header, otherwise it is omitted.
 
 > `optional` **exposedHeaders**: `string` \| `string`[]
 
-Defined in: [types/CoreTypes.ts:60](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/types/CoreTypes.ts#L60)
+Defined in: [types/CoreTypes.ts:60](https://github.com/AxonJsLabs/AxonJs/blob/407e35cea641a89da71a37171ebae2edf17c9012/src/types/CoreTypes.ts#L60)
 
 Configures the Access-Control-Expose-Headers CORS header.
 
@@ -64,7 +64,7 @@ If not specified, no custom headers are exposed.
 
 > `optional` **maxAge**: `number`
 
-Defined in: [types/CoreTypes.ts:72](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/types/CoreTypes.ts#L72)
+Defined in: [types/CoreTypes.ts:72](https://github.com/AxonJsLabs/AxonJs/blob/407e35cea641a89da71a37171ebae2edf17c9012/src/types/CoreTypes.ts#L72)
 
 Configures the Access-Control-Max-Age CORS header.
 
@@ -76,7 +76,7 @@ Set to an `integer` to pass the header, otherwise it is omitted.
 
 > `optional` **methods**: `string` \| `string`[]
 
-Defined in: [types/CoreTypes.ts:36](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/types/CoreTypes.ts#L36)
+Defined in: [types/CoreTypes.ts:36](https://github.com/AxonJsLabs/AxonJs/blob/407e35cea641a89da71a37171ebae2edf17c9012/src/types/CoreTypes.ts#L36)
 
 Configures the Access-Control-Allow-Methods CORS header.
 
@@ -92,7 +92,7 @@ Possible values:
 
 > `optional` **optionsSuccessStatus**: `number`
 
-Defined in: [types/CoreTypes.ts:80](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/types/CoreTypes.ts#L80)
+Defined in: [types/CoreTypes.ts:80](https://github.com/AxonJsLabs/AxonJs/blob/407e35cea641a89da71a37171ebae2edf17c9012/src/types/CoreTypes.ts#L80)
 
 Provides a status code to use for successful `OPTIONS` requests, since some legacy browsers (IE11, various SmartTVs) choke on `204`.
 
@@ -102,7 +102,7 @@ Provides a status code to use for successful `OPTIONS` requests, since some lega
 
 > `optional` **origin**: `string` \| `boolean` \| `Function` \| (`string` \| `RegExp`)[]
 
-Defined in: [types/CoreTypes.ts:26](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/types/CoreTypes.ts#L26)
+Defined in: [types/CoreTypes.ts:26](https://github.com/AxonJsLabs/AxonJs/blob/407e35cea641a89da71a37171ebae2edf17c9012/src/types/CoreTypes.ts#L26)
 
 Configures the Access-Control-Allow-Origin CORS header.
 
@@ -124,6 +124,6 @@ Possible values:
 
 > `optional` **preflightContinue**: `boolean`
 
-Defined in: [types/CoreTypes.ts:76](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/types/CoreTypes.ts#L76)
+Defined in: [types/CoreTypes.ts:76](https://github.com/AxonJsLabs/AxonJs/blob/407e35cea641a89da71a37171ebae2edf17c9012/src/types/CoreTypes.ts#L76)
 
 Pass the CORS preflight response to the next handler.

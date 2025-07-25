@@ -8,7 +8,7 @@
 
 > **Lifecycle** = `"singleton"` \| `"transient"` \| `"scoped"`
 
-Defined in: [types/Dependency.d.ts:37](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/types/Dependency.d.ts#L37)
+Defined in: [types/Dependency.d.ts:37](https://github.com/AxonJsLabs/AxonJs/blob/407e35cea641a89da71a37171ebae2edf17c9012/src/types/Dependency.d.ts#L37)
 
 ### 1. Singleton
 A single instance of the service is created and shared thoughout the

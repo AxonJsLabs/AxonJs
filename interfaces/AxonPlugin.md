@@ -6,7 +6,7 @@
 
 # Interface: AxonPlugin
 
-Defined in: [types/PluginTypes.ts:12](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/types/PluginTypes.ts#L12)
+Defined in: [types/PluginTypes.ts:12](https://github.com/AxonJsLabs/AxonJs/blob/407e35cea641a89da71a37171ebae2edf17c9012/src/types/PluginTypes.ts#L12)
 
 ## Indexable
 
@@ -20,7 +20,7 @@ Rest of plugin methods.
 
 > **mode**: [`PluginMode`](../type-aliases/PluginMode.md)
 
-Defined in: [types/PluginTypes.ts:33](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/types/PluginTypes.ts#L33)
+Defined in: [types/PluginTypes.ts:33](https://github.com/AxonJsLabs/AxonJs/blob/407e35cea641a89da71a37171ebae2edf17c9012/src/types/PluginTypes.ts#L33)
 
 This field submit your plugin environment mode to use.
 
@@ -34,7 +34,7 @@ This field submit your plugin environment mode to use.
 
 > **name**: `string`
 
-Defined in: [types/PluginTypes.ts:16](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/types/PluginTypes.ts#L16)
+Defined in: [types/PluginTypes.ts:16](https://github.com/AxonJsLabs/AxonJs/blob/407e35cea641a89da71a37171ebae2edf17c9012/src/types/PluginTypes.ts#L16)
 
 This field submit your plugin name for AxonCore.
 
@@ -44,7 +44,7 @@ This field submit your plugin name for AxonCore.
 
 > **version**: `string`
 
-Defined in: [types/PluginTypes.ts:24](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/types/PluginTypes.ts#L24)
+Defined in: [types/PluginTypes.ts:24](https://github.com/AxonJsLabs/AxonJs/blob/407e35cea641a89da71a37171ebae2edf17c9012/src/types/PluginTypes.ts#L24)
 
 This field submit your plugin version for AxonCore.
 
@@ -57,7 +57,7 @@ NOTE:
 
 > **init**(`core`): `Promise`\<`void`\>
 
-Defined in: [types/PluginTypes.ts:39](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/types/PluginTypes.ts#L39)
+Defined in: [types/PluginTypes.ts:39](https://github.com/AxonJsLabs/AxonJs/blob/407e35cea641a89da71a37171ebae2edf17c9012/src/types/PluginTypes.ts#L39)
 
 This is the start point of your plugin, Initialize method.
 

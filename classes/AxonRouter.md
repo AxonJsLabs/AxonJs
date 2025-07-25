@@ -6,7 +6,7 @@
 
 # Class: AxonRouter
 
-Defined in: [Router/AxonRouter.ts:58](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/Router/AxonRouter.ts#L58)
+Defined in: [Router/AxonRouter.ts:58](https://github.com/AxonJsLabs/AxonJs/blob/407e35cea641a89da71a37171ebae2edf17c9012/src/Router/AxonRouter.ts#L58)
 
 ## Constructors
 
@@ -14,7 +14,7 @@ Defined in: [Router/AxonRouter.ts:58](https://github.com/AxonJsLabs/AxonJs/blob/
 
 > **new AxonRouter**(`prefix?`): `AxonRouter`
 
-Defined in: [Router/AxonRouter.ts:62](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/Router/AxonRouter.ts#L62)
+Defined in: [Router/AxonRouter.ts:62](https://github.com/AxonJsLabs/AxonJs/blob/407e35cea641a89da71a37171ebae2edf17c9012/src/Router/AxonRouter.ts#L62)
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: [Router/AxonRouter.ts:62](https://github.com/AxonJsLabs/AxonJs/blob/
 
 > **prefix**: `undefined` \| `string`
 
-Defined in: [Router/AxonRouter.ts:60](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/Router/AxonRouter.ts#L60)
+Defined in: [Router/AxonRouter.ts:60](https://github.com/AxonJsLabs/AxonJs/blob/407e35cea641a89da71a37171ebae2edf17c9012/src/Router/AxonRouter.ts#L60)
 
 ## Methods
 
@@ -40,7 +40,7 @@ Defined in: [Router/AxonRouter.ts:60](https://github.com/AxonJsLabs/AxonJs/blob/
 
 > **delete**\<`Path`, `C`, `M`\>(`path`, `controller`, `validation?`): `AxonRouteHandler`\<`RouteParams`\<`Path`\>\>
 
-Defined in: [Router/AxonRouter.ts:337](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/Router/AxonRouter.ts#L337)
+Defined in: [Router/AxonRouter.ts:337](https://github.com/AxonJsLabs/AxonJs/blob/407e35cea641a89da71a37171ebae2edf17c9012/src/Router/AxonRouter.ts#L337)
 
 Endpoint with method DELETE
 
@@ -108,7 +108,7 @@ router.delete("/logout", authController, [
 
 > **exportRoutes**(): [`HttpMethods`](../interfaces/HttpMethods.md)
 
-Defined in: [Router/AxonRouter.ts:416](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/Router/AxonRouter.ts#L416)
+Defined in: [Router/AxonRouter.ts:416](https://github.com/AxonJsLabs/AxonJs/blob/407e35cea641a89da71a37171ebae2edf17c9012/src/Router/AxonRouter.ts#L416)
 
 #### Returns
 
@@ -120,7 +120,7 @@ Defined in: [Router/AxonRouter.ts:416](https://github.com/AxonJsLabs/AxonJs/blob
 
 > **get**\<`Path`, `C`, `M`\>(`path`, `controller`, `validation?`): `AxonRouteHandler`\<`RouteParams`\<`Path`\>\>
 
-Defined in: [Router/AxonRouter.ts:103](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/Router/AxonRouter.ts#L103)
+Defined in: [Router/AxonRouter.ts:103](https://github.com/AxonJsLabs/AxonJs/blob/407e35cea641a89da71a37171ebae2edf17c9012/src/Router/AxonRouter.ts#L103)
 
 Endpoint with method GET
 
@@ -191,7 +191,7 @@ router.get("/user", userController, [
 
 > **options**\<`Path`, `C`, `M`\>(`path`, `controller`, `validation?`): `AxonRouteHandler`\<`RouteParams`\<`Path`\>\>
 
-Defined in: [Router/AxonRouter.ts:383](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/Router/AxonRouter.ts#L383)
+Defined in: [Router/AxonRouter.ts:383](https://github.com/AxonJsLabs/AxonJs/blob/407e35cea641a89da71a37171ebae2edf17c9012/src/Router/AxonRouter.ts#L383)
 
 Endpoint with method OPTIONS
 
@@ -247,7 +247,7 @@ router.options("/user/{param}(regex)", (req: Request<{ param: string }>, res: Re
 
 > **patch**\<`Path`, `C`, `M`\>(`path`, `controller`, `validation?`): `AxonRouteHandler`\<`RouteParams`\<`Path`\>\>
 
-Defined in: [Router/AxonRouter.ts:280](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/Router/AxonRouter.ts#L280)
+Defined in: [Router/AxonRouter.ts:280](https://github.com/AxonJsLabs/AxonJs/blob/407e35cea641a89da71a37171ebae2edf17c9012/src/Router/AxonRouter.ts#L280)
 
 Endpoint with method PATCH
 
@@ -317,7 +317,7 @@ router.patch("/edit", userController, [
 
 > **post**\<`Path`, `C`, `M`\>(`path`, `controller`, `validation?`): `AxonRouteHandler`\<`RouteParams`\<`Path`\>\>
 
-Defined in: [Router/AxonRouter.ts:164](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/Router/AxonRouter.ts#L164)
+Defined in: [Router/AxonRouter.ts:164](https://github.com/AxonJsLabs/AxonJs/blob/407e35cea641a89da71a37171ebae2edf17c9012/src/Router/AxonRouter.ts#L164)
 
 Endpoint with method POST
 
@@ -388,7 +388,7 @@ router.post("/login", authController, [
 
 > **put**\<`Path`, `C`, `M`\>(`path`, `controller`, `validation?`): `AxonRouteHandler`\<`RouteParams`\<`Path`\>\>
 
-Defined in: [Router/AxonRouter.ts:220](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/Router/AxonRouter.ts#L220)
+Defined in: [Router/AxonRouter.ts:220](https://github.com/AxonJsLabs/AxonJs/blob/407e35cea641a89da71a37171ebae2edf17c9012/src/Router/AxonRouter.ts#L220)
 
 Endpoint with method PUT
 

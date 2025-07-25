@@ -6,7 +6,7 @@
 
 # Interface: RouterExceptionError
 
-Defined in: [types/GlobalTypes.ts:14](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/types/GlobalTypes.ts#L14)
+Defined in: [types/GlobalTypes.ts:14](https://github.com/AxonJsLabs/AxonJs/blob/407e35cea641a89da71a37171ebae2edf17c9012/src/types/GlobalTypes.ts#L14)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [types/GlobalTypes.ts:14](https://github.com/AxonJsLabs/AxonJs/blob/
 
 > **meta**: `ExceptionMeta`
 
-Defined in: [types/GlobalTypes.ts:17](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/types/GlobalTypes.ts#L17)
+Defined in: [types/GlobalTypes.ts:17](https://github.com/AxonJsLabs/AxonJs/blob/407e35cea641a89da71a37171ebae2edf17c9012/src/types/GlobalTypes.ts#L17)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [types/GlobalTypes.ts:17](https://github.com/AxonJsLabs/AxonJs/blob/
 
 > **msg**: `string`
 
-Defined in: [types/GlobalTypes.ts:15](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/types/GlobalTypes.ts#L15)
+Defined in: [types/GlobalTypes.ts:15](https://github.com/AxonJsLabs/AxonJs/blob/407e35cea641a89da71a37171ebae2edf17c9012/src/types/GlobalTypes.ts#L15)
 
 ***
 
@@ -30,4 +30,4 @@ Defined in: [types/GlobalTypes.ts:15](https://github.com/AxonJsLabs/AxonJs/blob/
 
 > **name**: `string`
 
-Defined in: [types/GlobalTypes.ts:16](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/types/GlobalTypes.ts#L16)
+Defined in: [types/GlobalTypes.ts:16](https://github.com/AxonJsLabs/AxonJs/blob/407e35cea641a89da71a37171ebae2edf17c9012/src/types/GlobalTypes.ts#L16)

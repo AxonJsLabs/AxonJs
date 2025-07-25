@@ -6,7 +6,7 @@
 
 # Class: `abstract` BaseController
 
-Defined in: [core/classController/index.ts:19](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/core/classController/index.ts#L19)
+Defined in: [core/classController/index.ts:19](https://github.com/AxonJsLabs/AxonJs/blob/407e35cea641a89da71a37171ebae2edf17c9012/src/core/classController/index.ts#L19)
 
 Base controller class for class based controllers in AxonJs
 
@@ -33,7 +33,7 @@ router.get("/logout", [AuthController, "logout"]);
 
 > **new BaseController**(): `BaseController`
 
-Defined in: [core/classController/index.ts:20](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/core/classController/index.ts#L20)
+Defined in: [core/classController/index.ts:20](https://github.com/AxonJsLabs/AxonJs/blob/407e35cea641a89da71a37171ebae2edf17c9012/src/core/classController/index.ts#L20)
 
 #### Returns
 

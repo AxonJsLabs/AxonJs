@@ -6,7 +6,7 @@
 
 # Interface: Response
 
-Defined in: [types/RouterTypes.ts:21](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/types/RouterTypes.ts#L21)
+Defined in: [types/RouterTypes.ts:21](https://github.com/AxonJsLabs/AxonJs/blob/407e35cea641a89da71a37171ebae2edf17c9012/src/types/RouterTypes.ts#L21)
 
 Server response to the client.
 
@@ -20,7 +20,7 @@ Server response to the client.
 
 > **status**: (`code`) => `AxonResponse`
 
-Defined in: [types/RouterTypes.ts:22](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/types/RouterTypes.ts#L22)
+Defined in: [types/RouterTypes.ts:22](https://github.com/AxonJsLabs/AxonJs/blob/407e35cea641a89da71a37171ebae2edf17c9012/src/types/RouterTypes.ts#L22)
 
 #### Parameters
 

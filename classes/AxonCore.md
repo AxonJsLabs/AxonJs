@@ -6,7 +6,7 @@
 
 # Class: AxonCore
 
-Defined in: [core/AxonCore.ts:41](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/core/AxonCore.ts#L41)
+Defined in: [core/AxonCore.ts:41](https://github.com/AxonJsLabs/AxonJs/blob/407e35cea641a89da71a37171ebae2edf17c9012/src/core/AxonCore.ts#L41)
 
 ## Constructors
 
@@ -14,7 +14,7 @@ Defined in: [core/AxonCore.ts:41](https://github.com/AxonJsLabs/AxonJs/blob/3187
 
 > **new AxonCore**(`config?`): `AxonCore`
 
-Defined in: [core/AxonCore.ts:92](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/core/AxonCore.ts#L92)
+Defined in: [core/AxonCore.ts:92](https://github.com/AxonJsLabs/AxonJs/blob/407e35cea641a89da71a37171ebae2edf17c9012/src/core/AxonCore.ts#L92)
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: [core/AxonCore.ts:92](https://github.com/AxonJsLabs/AxonJs/blob/3187
 
 > **clearGlobalMiddlewares**(): `void`
 
-Defined in: [core/AxonCore.ts:340](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/core/AxonCore.ts#L340)
+Defined in: [core/AxonCore.ts:340](https://github.com/AxonJsLabs/AxonJs/blob/407e35cea641a89da71a37171ebae2edf17c9012/src/core/AxonCore.ts#L340)
 
 Clears all the global middlewares
 
@@ -46,7 +46,7 @@ Clears all the global middlewares
 
 > **close**(`server?`): `boolean`
 
-Defined in: [core/AxonCore.ts:825](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/core/AxonCore.ts#L825)
+Defined in: [core/AxonCore.ts:825](https://github.com/AxonJsLabs/AxonJs/blob/407e35cea641a89da71a37171ebae2edf17c9012/src/core/AxonCore.ts#L825)
 
 Closes the web servers
 
@@ -76,7 +76,7 @@ core.close("https") // closes only https server
 
 > **getConfig**(): [`AxonConfig`](../interfaces/AxonConfig.md)
 
-Defined in: [core/AxonCore.ts:872](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/core/AxonCore.ts#L872)
+Defined in: [core/AxonCore.ts:872](https://github.com/AxonJsLabs/AxonJs/blob/407e35cea641a89da71a37171ebae2edf17c9012/src/core/AxonCore.ts#L872)
 
 Returns the core config
 
@@ -99,7 +99,7 @@ console.log(config);
 
 > **getContainer**(): [`NeuronContainer`](NeuronContainer.md)
 
-Defined in: [core/AxonCore.ts:881](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/core/AxonCore.ts#L881)
+Defined in: [core/AxonCore.ts:881](https://github.com/AxonJsLabs/AxonJs/blob/407e35cea641a89da71a37171ebae2edf17c9012/src/core/AxonCore.ts#L881)
 
 Get instance of dependency container that is using by Axon core.
 
@@ -119,7 +119,7 @@ Dependency Container
 
 > **getServers**(): `object`
 
-Defined in: [core/AxonCore.ts:858](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/core/AxonCore.ts#L858)
+Defined in: [core/AxonCore.ts:858](https://github.com/AxonJsLabs/AxonJs/blob/407e35cea641a89da71a37171ebae2edf17c9012/src/core/AxonCore.ts#L858)
 
 Returns the server object
 
@@ -152,7 +152,7 @@ servers.http.on("request", () => {
 
 > **globalMiddleware**(`fn`, `timeout?`, `critical?`): `Promise`\<`void`\>
 
-Defined in: [core/AxonCore.ts:301](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/core/AxonCore.ts#L301)
+Defined in: [core/AxonCore.ts:301](https://github.com/AxonJsLabs/AxonJs/blob/407e35cea641a89da71a37171ebae2edf17c9012/src/core/AxonCore.ts#L301)
 
 You can set one or many middlewares in global scope with this method.
 
@@ -193,7 +193,7 @@ core.globalMiddleware([uploadMiddleware, userMiddleware], 10000, false) // optio
 
 > **listen**(`host`, `port`, `callback?`): `void`
 
-Defined in: [core/AxonCore.ts:683](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/core/AxonCore.ts#L683)
+Defined in: [core/AxonCore.ts:683](https://github.com/AxonJsLabs/AxonJs/blob/407e35cea641a89da71a37171ebae2edf17c9012/src/core/AxonCore.ts#L683)
 
 Start listening to http incoming requests
 
@@ -238,7 +238,7 @@ core.listen("0.0.0.0", {
 
 > **loadPlugin**(`plugin`): `Promise`\<`void`\>
 
-Defined in: [core/AxonCore.ts:132](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/core/AxonCore.ts#L132)
+Defined in: [core/AxonCore.ts:132](https://github.com/AxonJsLabs/AxonJs/blob/407e35cea641a89da71a37171ebae2edf17c9012/src/core/AxonCore.ts#L132)
 
 Loads a specified Axon plugin using the plugin loader.
 
@@ -274,7 +274,7 @@ core.loadPlugin(new MyPlugin())
 
 > **loadRoute**(`router`): `Promise`\<`void`\>
 
-Defined in: [core/AxonCore.ts:176](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/core/AxonCore.ts#L176)
+Defined in: [core/AxonCore.ts:176](https://github.com/AxonJsLabs/AxonJs/blob/407e35cea641a89da71a37171ebae2edf17c9012/src/core/AxonCore.ts#L176)
 
 loads created routes
 
@@ -307,7 +307,7 @@ core.loadRoute(router);
 
 > **registerDependencyFactory**\<`T`\>(`name`, `factory`, `options?`): `void`
 
-Defined in: [core/AxonCore.ts:284](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/core/AxonCore.ts#L284)
+Defined in: [core/AxonCore.ts:284](https://github.com/AxonJsLabs/AxonJs/blob/407e35cea641a89da71a37171ebae2edf17c9012/src/core/AxonCore.ts#L284)
 
 Register a factory function that creates the dependency (sync or async).
 
@@ -362,7 +362,7 @@ core.registerDependencyFactory('auth', async () => await AuthService.build())
 
 > **registerDependencyValue**\<`T`\>(`name`, `value`, `options?`): `void`
 
-Defined in: [core/AxonCore.ts:262](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/core/AxonCore.ts#L262)
+Defined in: [core/AxonCore.ts:262](https://github.com/AxonJsLabs/AxonJs/blob/407e35cea641a89da71a37171ebae2edf17c9012/src/core/AxonCore.ts#L262)
 
 Register a static value or instance (object, function, class instance).
 
@@ -417,7 +417,7 @@ core.registerDependencyValue('config', { port: 3000 });
 
 > **unloadRoute**(`__namedParameters`): `Promise`\<`void`\>
 
-Defined in: [core/AxonCore.ts:235](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/core/AxonCore.ts#L235)
+Defined in: [core/AxonCore.ts:235](https://github.com/AxonJsLabs/AxonJs/blob/407e35cea641a89da71a37171ebae2edf17c9012/src/core/AxonCore.ts#L235)
 
 unload routes based on entered parameters
 
@@ -465,7 +465,7 @@ core.unloadRoute({
 
 > **unloadRoutes**(): `Promise`\<`void`\>
 
-Defined in: [core/AxonCore.ts:244](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/core/AxonCore.ts#L244)
+Defined in: [core/AxonCore.ts:244](https://github.com/AxonJsLabs/AxonJs/blob/407e35cea641a89da71a37171ebae2edf17c9012/src/core/AxonCore.ts#L244)
 
 unload all routes
 
