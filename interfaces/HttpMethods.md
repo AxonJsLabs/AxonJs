@@ -6,7 +6,7 @@
 
 # Interface: HttpMethods
 
-Defined in: [types/RouterTypes.ts:102](https://github.com/AxonJsLabs/AxonJs/blob/443c878e407aac4d555b412a63d998c861697725/src/types/RouterTypes.ts#L102)
+Defined in: [types/RouterTypes.ts:102](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/types/RouterTypes.ts#L102)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [types/RouterTypes.ts:102](https://github.com/AxonJsLabs/AxonJs/blob
 
 > **DELETE**: `Routes`\<`any`\>
 
-Defined in: [types/RouterTypes.ts:106](https://github.com/AxonJsLabs/AxonJs/blob/443c878e407aac4d555b412a63d998c861697725/src/types/RouterTypes.ts#L106)
+Defined in: [types/RouterTypes.ts:106](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/types/RouterTypes.ts#L106)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [types/RouterTypes.ts:106](https://github.com/AxonJsLabs/AxonJs/blob
 
 > **GET**: `Routes`\<`any`\>
 
-Defined in: [types/RouterTypes.ts:103](https://github.com/AxonJsLabs/AxonJs/blob/443c878e407aac4d555b412a63d998c861697725/src/types/RouterTypes.ts#L103)
+Defined in: [types/RouterTypes.ts:103](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/types/RouterTypes.ts#L103)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [types/RouterTypes.ts:103](https://github.com/AxonJsLabs/AxonJs/blob
 
 > **OPTIONS**: `Routes`\<`any`\>
 
-Defined in: [types/RouterTypes.ts:107](https://github.com/AxonJsLabs/AxonJs/blob/443c878e407aac4d555b412a63d998c861697725/src/types/RouterTypes.ts#L107)
+Defined in: [types/RouterTypes.ts:107](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/types/RouterTypes.ts#L107)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [types/RouterTypes.ts:107](https://github.com/AxonJsLabs/AxonJs/blob
 
 > **PATCH**: `Routes`\<`any`\>
 
-Defined in: [types/RouterTypes.ts:108](https://github.com/AxonJsLabs/AxonJs/blob/443c878e407aac4d555b412a63d998c861697725/src/types/RouterTypes.ts#L108)
+Defined in: [types/RouterTypes.ts:108](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/types/RouterTypes.ts#L108)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: [types/RouterTypes.ts:108](https://github.com/AxonJsLabs/AxonJs/blob
 
 > **POST**: `Routes`\<`any`\>
 
-Defined in: [types/RouterTypes.ts:104](https://github.com/AxonJsLabs/AxonJs/blob/443c878e407aac4d555b412a63d998c861697725/src/types/RouterTypes.ts#L104)
+Defined in: [types/RouterTypes.ts:104](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/types/RouterTypes.ts#L104)
 
 ***
 
@@ -54,4 +54,4 @@ Defined in: [types/RouterTypes.ts:104](https://github.com/AxonJsLabs/AxonJs/blob
 
 > **PUT**: `Routes`\<`any`\>
 
-Defined in: [types/RouterTypes.ts:105](https://github.com/AxonJsLabs/AxonJs/blob/443c878e407aac4d555b412a63d998c861697725/src/types/RouterTypes.ts#L105)
+Defined in: [types/RouterTypes.ts:105](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/types/RouterTypes.ts#L105)

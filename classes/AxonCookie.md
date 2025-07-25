@@ -6,7 +6,7 @@
 
 # Class: AxonCookie
 
-Defined in: [core/cookie/AxonCookie.ts:6](https://github.com/AxonJsLabs/AxonJs/blob/443c878e407aac4d555b412a63d998c861697725/src/core/cookie/AxonCookie.ts#L6)
+Defined in: [core/cookie/AxonCookie.ts:6](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/core/cookie/AxonCookie.ts#L6)
 
 ## Constructors
 
@@ -24,7 +24,7 @@ Defined in: [core/cookie/AxonCookie.ts:6](https://github.com/AxonJsLabs/AxonJs/b
 
 > `static` **clear**(`res`, `name`, `options`): `void`
 
-Defined in: [core/cookie/AxonCookie.ts:104](https://github.com/AxonJsLabs/AxonJs/blob/443c878e407aac4d555b412a63d998c861697725/src/core/cookie/AxonCookie.ts#L104)
+Defined in: [core/cookie/AxonCookie.ts:104](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/core/cookie/AxonCookie.ts#L104)
 
 Clear a cookie
 
@@ -54,7 +54,7 @@ You have to pass all options which you set while creating cookie to delete that 
 
 > `static` **parse**(`req`): `Record`\<`string`, `string`\>
 
-Defined in: [core/cookie/AxonCookie.ts:10](https://github.com/AxonJsLabs/AxonJs/blob/443c878e407aac4d555b412a63d998c861697725/src/core/cookie/AxonCookie.ts#L10)
+Defined in: [core/cookie/AxonCookie.ts:10](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/core/cookie/AxonCookie.ts#L10)
 
 Parse cookies from request headers
 
@@ -74,7 +74,7 @@ Parse cookies from request headers
 
 > `static` **set**(`res`, `name`, `value`, `options`): `void`
 
-Defined in: [core/cookie/AxonCookie.ts:71](https://github.com/AxonJsLabs/AxonJs/blob/443c878e407aac4d555b412a63d998c861697725/src/core/cookie/AxonCookie.ts#L71)
+Defined in: [core/cookie/AxonCookie.ts:71](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/core/cookie/AxonCookie.ts#L71)
 
 Set a cookie in the response
 

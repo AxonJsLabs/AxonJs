@@ -6,7 +6,7 @@
 
 # Class: NeuronContainer
 
-Defined in: [core/DI/NeuronContainer.ts:17](https://github.com/AxonJsLabs/AxonJs/blob/443c878e407aac4d555b412a63d998c861697725/src/core/DI/NeuronContainer.ts#L17)
+Defined in: [core/DI/NeuronContainer.ts:17](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/core/DI/NeuronContainer.ts#L17)
 
 **`Experimental`**
 
@@ -47,7 +47,7 @@ Supports aliasing, hybrid string/class tokens, async registration, and lifecycle
 
 > **checkDependency**(`key`, `scopeId?`): `boolean`
 
-Defined in: [core/DI/NeuronContainer.ts:131](https://github.com/AxonJsLabs/AxonJs/blob/443c878e407aac4d555b412a63d998c861697725/src/core/DI/NeuronContainer.ts#L131)
+Defined in: [core/DI/NeuronContainer.ts:131](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/core/DI/NeuronContainer.ts#L131)
 
 **`Experimental`**
 
@@ -79,7 +79,7 @@ Throw error if something wrong and return true if everything was ok
 
 > **clearScope**(`scopeId`): `void`
 
-Defined in: [core/DI/NeuronContainer.ts:248](https://github.com/AxonJsLabs/AxonJs/blob/443c878e407aac4d555b412a63d998c861697725/src/core/DI/NeuronContainer.ts#L248)
+Defined in: [core/DI/NeuronContainer.ts:248](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/core/DI/NeuronContainer.ts#L248)
 
 **`Experimental`**
 
@@ -109,7 +109,7 @@ container.clearScope(req.id);
 
 > **clone**(): `NeuronContainer`
 
-Defined in: [core/DI/NeuronContainer.ts:229](https://github.com/AxonJsLabs/AxonJs/blob/443c878e407aac4d555b412a63d998c861697725/src/core/DI/NeuronContainer.ts#L229)
+Defined in: [core/DI/NeuronContainer.ts:229](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/core/DI/NeuronContainer.ts#L229)
 
 **`Experimental`**
 
@@ -133,7 +133,7 @@ const testContainer = container.clone();
 
 > **inspect**(`key`): `null` \| \{ `isFactory`: `boolean`; `key`: `string` \| `Function`; `lifecycle`: [`Lifecycle`](../type-aliases/Lifecycle.md); `resolved`: `boolean`; \}
 
-Defined in: [core/DI/NeuronContainer.ts:210](https://github.com/AxonJsLabs/AxonJs/blob/443c878e407aac4d555b412a63d998c861697725/src/core/DI/NeuronContainer.ts#L210)
+Defined in: [core/DI/NeuronContainer.ts:210](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/core/DI/NeuronContainer.ts#L210)
 
 **`Experimental`**
 
@@ -165,7 +165,7 @@ container.inspect('db');
 
 > **listDependencies**(): (`string` \| `Function`)[]
 
-Defined in: [core/DI/NeuronContainer.ts:199](https://github.com/AxonJsLabs/AxonJs/blob/443c878e407aac4d555b412a63d998c861697725/src/core/DI/NeuronContainer.ts#L199)
+Defined in: [core/DI/NeuronContainer.ts:199](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/core/DI/NeuronContainer.ts#L199)
 
 **`Experimental`**
 
@@ -189,7 +189,7 @@ console.log(container.listDependencies());
 
 > **override**\<`T`\>(`key`, `value`): `void`
 
-Defined in: [core/DI/NeuronContainer.ts:179](https://github.com/AxonJsLabs/AxonJs/blob/443c878e407aac4d555b412a63d998c861697725/src/core/DI/NeuronContainer.ts#L179)
+Defined in: [core/DI/NeuronContainer.ts:179](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/core/DI/NeuronContainer.ts#L179)
 
 **`Experimental`**
 
@@ -231,7 +231,7 @@ container.override('logger', customLogger);
 
 > **register**\<`T`\>(`keys`, `value`, `options`): `void`
 
-Defined in: [core/DI/NeuronContainer.ts:62](https://github.com/AxonJsLabs/AxonJs/blob/443c878e407aac4d555b412a63d998c861697725/src/core/DI/NeuronContainer.ts#L62)
+Defined in: [core/DI/NeuronContainer.ts:62](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/core/DI/NeuronContainer.ts#L62)
 
 **`Experimental`**
 
@@ -279,7 +279,7 @@ Some options for configuring the dependency
 
 > **registerFactory**\<`T`\>(`keys`, `factory`, `options`): `void`
 
-Defined in: [core/DI/NeuronContainer.ts:48](https://github.com/AxonJsLabs/AxonJs/blob/443c878e407aac4d555b412a63d998c861697725/src/core/DI/NeuronContainer.ts#L48)
+Defined in: [core/DI/NeuronContainer.ts:48](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/core/DI/NeuronContainer.ts#L48)
 
 **`Experimental`**
 
@@ -330,7 +330,7 @@ container.registerFactory('auth', async () => await AuthService.build())
 
 > **registerValue**\<`T`\>(`keys`, `value`, `options`): `void`
 
-Defined in: [core/DI/NeuronContainer.ts:31](https://github.com/AxonJsLabs/AxonJs/blob/443c878e407aac4d555b412a63d998c861697725/src/core/DI/NeuronContainer.ts#L31)
+Defined in: [core/DI/NeuronContainer.ts:31](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/core/DI/NeuronContainer.ts#L31)
 
 **`Experimental`**
 
@@ -381,7 +381,7 @@ container.registerValue('config', { port: 3000 })
 
 > **resolve**\<`T`\>(`key`, `scopeId?`): `Promise`\<`T`\>
 
-Defined in: [core/DI/NeuronContainer.ts:96](https://github.com/AxonJsLabs/AxonJs/blob/443c878e407aac4d555b412a63d998c861697725/src/core/DI/NeuronContainer.ts#L96)
+Defined in: [core/DI/NeuronContainer.ts:96](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/core/DI/NeuronContainer.ts#L96)
 
 **`Experimental`**
 
@@ -426,7 +426,7 @@ const auth = await container.resolve('auth', req.id)
 
 > **use**\<`T`\>(`key`, `scopeId?`): `Promise`\<`T`\>
 
-Defined in: [core/DI/NeuronContainer.ts:168](https://github.com/AxonJsLabs/AxonJs/blob/443c878e407aac4d555b412a63d998c861697725/src/core/DI/NeuronContainer.ts#L168)
+Defined in: [core/DI/NeuronContainer.ts:168](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/core/DI/NeuronContainer.ts#L168)
 
 **`Experimental`**
 

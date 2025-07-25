@@ -8,4 +8,4 @@
 
 > **Headers** = `http.OutgoingHttpHeaders`
 
-Defined in: [index.ts:38](https://github.com/AxonJsLabs/AxonJs/blob/443c878e407aac4d555b412a63d998c861697725/src/index.ts#L38)
+Defined in: [index.ts:38](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/index.ts#L38)

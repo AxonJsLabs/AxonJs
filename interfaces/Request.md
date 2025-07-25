@@ -6,7 +6,7 @@
 
 # Interface: Request\<P\>
 
-Defined in: [types/RouterTypes.ts:10](https://github.com/AxonJsLabs/AxonJs/blob/443c878e407aac4d555b412a63d998c861697725/src/types/RouterTypes.ts#L10)
+Defined in: [types/RouterTypes.ts:10](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/types/RouterTypes.ts#L10)
 
 Incoming request, including some information about the client.
 
@@ -26,7 +26,7 @@ Incoming request, including some information about the client.
 
 > `optional` **body**: `any`
 
-Defined in: [types/RouterTypes.ts:15](https://github.com/AxonJsLabs/AxonJs/blob/443c878e407aac4d555b412a63d998c861697725/src/types/RouterTypes.ts#L15)
+Defined in: [types/RouterTypes.ts:15](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/types/RouterTypes.ts#L15)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: [types/RouterTypes.ts:15](https://github.com/AxonJsLabs/AxonJs/blob/
 
 > **method**: `string`
 
-Defined in: [types/RouterTypes.ts:11](https://github.com/AxonJsLabs/AxonJs/blob/443c878e407aac4d555b412a63d998c861697725/src/types/RouterTypes.ts#L11)
+Defined in: [types/RouterTypes.ts:11](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/types/RouterTypes.ts#L11)
 
 **Only valid for request obtained from Server.**
 
@@ -54,7 +54,7 @@ v0.1.1
 
 > `optional` **params**: `P`
 
-Defined in: [types/RouterTypes.ts:13](https://github.com/AxonJsLabs/AxonJs/blob/443c878e407aac4d555b412a63d998c861697725/src/types/RouterTypes.ts#L13)
+Defined in: [types/RouterTypes.ts:13](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/types/RouterTypes.ts#L13)
 
 ***
 
@@ -62,7 +62,7 @@ Defined in: [types/RouterTypes.ts:13](https://github.com/AxonJsLabs/AxonJs/blob/
 
 > **path**: `string`
 
-Defined in: [types/RouterTypes.ts:12](https://github.com/AxonJsLabs/AxonJs/blob/443c878e407aac4d555b412a63d998c861697725/src/types/RouterTypes.ts#L12)
+Defined in: [types/RouterTypes.ts:12](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/types/RouterTypes.ts#L12)
 
 ***
 
@@ -70,7 +70,7 @@ Defined in: [types/RouterTypes.ts:12](https://github.com/AxonJsLabs/AxonJs/blob/
 
 > `optional` **query**: `object`
 
-Defined in: [types/RouterTypes.ts:14](https://github.com/AxonJsLabs/AxonJs/blob/443c878e407aac4d555b412a63d998c861697725/src/types/RouterTypes.ts#L14)
+Defined in: [types/RouterTypes.ts:14](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/types/RouterTypes.ts#L14)
 
 #### Index Signature
 

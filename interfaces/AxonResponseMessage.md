@@ -6,7 +6,7 @@
 
 # Interface: AxonResponseMessage
 
-Defined in: [types/CoreTypes.ts:86](https://github.com/AxonJsLabs/AxonJs/blob/443c878e407aac4d555b412a63d998c861697725/src/types/CoreTypes.ts#L86)
+Defined in: [types/CoreTypes.ts:86](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/types/CoreTypes.ts#L86)
 
 Configuration for AxonCore custom response messages.
 
@@ -20,7 +20,7 @@ Configuration for AxonCore custom response messages.
 
 > `optional` **methodNotAllowed**: `string`
 
-Defined in: [types/CoreTypes.ts:106](https://github.com/AxonJsLabs/AxonJs/blob/443c878e407aac4d555b412a63d998c861697725/src/types/CoreTypes.ts#L106)
+Defined in: [types/CoreTypes.ts:106](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/types/CoreTypes.ts#L106)
 
 response error message for 405 method not allowed response from core
 
@@ -36,7 +36,7 @@ example:
 
 > `optional` **notFound**: `string`
 
-Defined in: [types/CoreTypes.ts:92](https://github.com/AxonJsLabs/AxonJs/blob/443c878e407aac4d555b412a63d998c861697725/src/types/CoreTypes.ts#L92)
+Defined in: [types/CoreTypes.ts:92](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/types/CoreTypes.ts#L92)
 
 response error message for 404 not found response from core
 
@@ -48,6 +48,6 @@ use `{path}` to show request method.
 
 > `optional` **serverError**: `string`
 
-Defined in: [types/CoreTypes.ts:96](https://github.com/AxonJsLabs/AxonJs/blob/443c878e407aac4d555b412a63d998c861697725/src/types/CoreTypes.ts#L96)
+Defined in: [types/CoreTypes.ts:96](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/types/CoreTypes.ts#L96)
 
 response error message for 500 internal server error response from core

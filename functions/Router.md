@@ -8,7 +8,7 @@
 
 > **Router**(`prefix?`): [`AxonRouter`](../classes/AxonRouter.md)
 
-Defined in: [index.ts:23](https://github.com/AxonJsLabs/AxonJs/blob/443c878e407aac4d555b412a63d998c861697725/src/index.ts#L23)
+Defined in: [index.ts:23](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/index.ts#L23)
 
 Instance of AxonRouter for easier usage
 

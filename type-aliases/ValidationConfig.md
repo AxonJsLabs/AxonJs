@@ -8,4 +8,4 @@
 
 > **ValidationConfig** = `joi.ValidationOptions` \| `z.ParseParams` \| `yup.ValidateOptions`
 
-Defined in: [types/ValidatorTypes.ts:6](https://github.com/AxonJsLabs/AxonJs/blob/443c878e407aac4d555b412a63d998c861697725/src/types/ValidatorTypes.ts#L6)
+Defined in: [types/ValidatorTypes.ts:6](https://github.com/AxonJsLabs/AxonJs/blob/3187def3e5c0161745ea7e33640513908efc6c86/src/types/ValidatorTypes.ts#L6)
